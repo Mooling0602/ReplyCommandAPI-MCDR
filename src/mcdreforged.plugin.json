@@ -1,10 +1,10 @@
 {
 	"id": "rc_api",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"name": "ReplyCommandAPI",
 	"description": {
 		"en_us": "Instead of `CommandSource.reply()`, support ModifyLogger-MCDR and [Skript]FakePlayerCommands.",
-		"zh_cn": "可替代`CommandSource.reply()`，支持自定义Logger插件（MCDR）和Skript插件FakePlayerCommand。"
+		"zh_cn": "可替代`CommandSource.reply()`，支持自定义Logger插件（MCDR）和Skript插件FakePlayerCommand"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.1.0"
