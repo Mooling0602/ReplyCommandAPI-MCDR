@@ -1,6 +1,6 @@
 {
 	"id": "rc_api",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"name": "ReplyCommandAPI",
 	"description": {
 		"en_us": "Instead of `CommandSource.reply()`, support ModifyLogger-MCDR and [Skript]FakePlayerCommands.",
