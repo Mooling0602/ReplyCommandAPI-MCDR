@@ -10,7 +10,7 @@
     ],
     "separate-pull-requests": true,
     "packages": {
-      "src": {
+      "src/": {
         "package-name": "rc_api"
       }
     }
