@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/Mooling0602/ReplyCommandAPI-MCDR/compare/rc_api-v0.0.1...rc_api-v0.0.2) (2025-01-23)
+
+
+### Bug Fixes
+
+* plugin description ([3cc0d80](https://github.com/Mooling0602/ReplyCommandAPI-MCDR/commit/3cc0d8054485f0d1519a2e9566fde28436522707))
+
 ## [0.0.1](https://github.com/Mooling0602/ReplyCommandAPI-MCDR/compare/rc_api-0.0.0...rc_api-v0.0.1) (2025-01-23)
 
 
