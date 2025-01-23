@@ -30,7 +30,6 @@ jobs:
         if: ${{ steps.release-please.outputs.releases_created == 'true' }}
         run: |
           echo "path=${{ fromJson(steps.release-please.outputs.paths_released)[0] }}" >> $GITHUB_OUTPUT
-          echo "path=src" >> $GITHUB_OUTPUT
 
   build:
     runs-on: ubuntu-latest
