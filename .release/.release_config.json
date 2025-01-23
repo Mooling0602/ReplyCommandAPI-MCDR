@@ -1,0 +1,17 @@
+{
+    "release-type": "simple",
+    "pull-request-title-pattern": "chore${scope}: 🔖 release${component} ${version}",
+    "extra-files": [
+      {
+        "type": "json",
+        "path": "mcdreforged.plugin.json",
+        "jsonpath": "$.version"
+      }
+    ],
+    "separate-pull-requests": true,
+    "packages": {
+      ".": {
+        "package-name": "rc_api"
+      }
+    }
+  }
