@@ -1,5 +1,4 @@
 from mcdreforged.api.types import CommandSource, ServerInterface
-from typing import Optional
 
 
 psi = ServerInterface.psi()
@@ -32,6 +31,10 @@ class cmdReply:
     def log(self, src: CommandSource, message: str, logger=psiLogger()):
         self._send_message(src, message)
         if src.is_player:
-            logger.info(f"[-> {src.player}] {message}")
+            try:
+                logger.info(f"[-> {src.player}] {message}")
+            except Exception:
+                psi.logger.warning("Your logger instance is incompatible! Fallbacking to psi logger.")
+                psi.logger.info(f"[-> {src.player}] {message}")
         else:
             psi.logger.warning("Command is not from any player or fake messages!")
