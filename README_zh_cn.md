@@ -29,4 +29,6 @@ def on_command(src: CommandSource):
     # 若不需要输出到控制台，直接使用src.reply("message")或reply(src, "Message")
     reply.log(src, "message")
     # 若有自定义的logger实例例如your_logger = custom_logger()，使用reply.log(src, "Message", your_logger)
+    # server = ServerInterface.psi()
+    # logger实例应支持类似于server.logger.info、server.logger.warning的用法，否则将产生报错并且无法使用。
 ```
